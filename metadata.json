@@ -1,0 +1,7 @@
+{
+  "name": "Firebase Question Solver",
+  "description": "A comprehensive question management and solving application powered by Firebase Firestore and Storage, featuring drawing tools and exam modes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
