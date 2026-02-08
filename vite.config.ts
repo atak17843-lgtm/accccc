@@ -10,8 +10,8 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-      // Make asset paths relative so the site can be deployed to GitHub Pages
-      base: './',
+      // Make asset paths relative for GitHub Pages deployment (production only)
+      base: mode === 'production' ? './' : '/',
       build: {
         outDir: 'dist'
       },
