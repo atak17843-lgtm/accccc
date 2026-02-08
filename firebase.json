@@ -8,5 +8,11 @@
         "destination": "/index.html"
       }
     ]
-  }
+  },
+  "storage": [
+    {
+      "bucket": "mistakes-548c3.firebasestorage.app",
+      "rules": "storage.rules"
+    }
+  ]
 }
